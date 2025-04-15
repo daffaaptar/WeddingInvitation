@@ -14,7 +14,7 @@ export const Hero = () => {
       ref={ref}
       className="min-h-screen relative flex items-center justify-center bg-navy text-white px-4 overflow-hidden"
     >
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-5" />
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-20" />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
